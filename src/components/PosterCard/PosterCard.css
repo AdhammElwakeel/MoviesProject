@@ -1,0 +1,8 @@
+.mainPosterContainer {
+    background-image: url(../../assets/poster.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}

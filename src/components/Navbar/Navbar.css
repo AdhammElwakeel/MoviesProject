@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 100px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+nav .linksContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 60rem;
+}
+
+nav .navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav .navLinks a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav .login .searchBar {
+    padding: 9px;
+    border: none;
+    border-radius: 10px;
+}

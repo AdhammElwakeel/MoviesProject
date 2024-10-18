@@ -1,0 +1,40 @@
+.slider {
+    padding: 30px;
+}
+
+.slider h2 {
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.slider .sliderContainer {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+.slider .sliderContainer .sliderTrack {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .sliderContainer .sliderTrack .slide {
+    display: flex;
+    flex-direction: row;
+    margin-right: 28px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide img {
+    width: 113px;
+    height: 177px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slide img:hover {
+    transform: scale(1.05);
+}

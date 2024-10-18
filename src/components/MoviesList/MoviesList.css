@@ -1,0 +1,83 @@
+.comingSoon {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comingSoon h2 {
+    color: #FFFFFF;
+}
+
+.comingSoon .comingSoonCards {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+}
+
+.comingSoon .posterBody {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;                                                            
+    width: 220px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.comingSoon .posterBody .posterTitle {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.posterTitle h5 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.posterTitle p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.posterTitle .age {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.posterTitle .movieLanguage {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.posterTitle .movieLanguage span {
+    padding: 4px 10px;
+    color: #FFFFFF;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 5px;  
+}
+
+.comingSoon .searchInput {
+    padding: 9px;
+    border: none;
+    border-radius: 30px;
+    width: 30%;
+}
+
+.comingSoon .searchButton {
+    padding: 10px 26px;
+    border-radius: 30px;
+    background-color:rgb(30 213 169);
+    color: #FFFFFF;
+    margin-left: -95px;
+    border: none;
+    width: 95px;
+}
