@@ -16,6 +16,7 @@
     margin-bottom: 40px;
     color: #FFFFFF;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .comingSoon .posterBody {
@@ -69,7 +70,7 @@
     padding: 9px;
     border: none;
     border-radius: 30px;
-    width: 30%;
+    width: 60%;
 }
 
 .comingSoon .searchButton {
@@ -80,4 +81,10 @@
     margin-left: -95px;
     border: none;
     width: 95px;
+}
+@media (max-width:550px) {
+    .comingSoon .searchInput {
+        width: 90%;
+    }
+    
 }

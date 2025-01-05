@@ -1,8 +1,18 @@
 .mainPosterContainer {
     background-image: url(../../assets/poster.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-size: cover;
-    height: 750px;
+    height: 550px;
     width: 100%;
+}
+@media (max-width:768px) {
+    .mainPosterContainer {
+        height: 300px;
+    }
+}
+@media (max-width:425px) {
+    .mainPosterContainer {
+        height: 195px;
+    }
 }

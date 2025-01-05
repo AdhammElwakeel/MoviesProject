@@ -5,7 +5,7 @@ const MoviesList = () => {
     const [movies , setMovies] = useState([])
 
     const fetchData = async()=>{
-        const res =await axios.get('https://api.themoviedb.org/3/trending/movie/week', { headers: { Authorization: "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NzlmMGQyMDk4NzYwNjdhZDNiYTk4YzE1ZTlmNzM4MSIsIm5iZiI6MTcyODk4Nzg0MS44NjY2MTksInN1YiI6IjY3MDdiNWE2MWQ5NmRjNmQ0NzZhMjY1MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GqI5U_9SDIvXC4G-bo9QBW-KbKcCh-8tSwLlrxpxFLY" } })
+        const res =await axios.get('https://api.themoviedb.org/3/trending/movie/week', { headers: { Authorization: "Bearer  eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NzlmMGQyMDk4NzYwNjdhZDNiYTk4YzE1ZTlmNzM4MSIsIm5iZiI6MTcyODk4Nzg0MS44NjY2MTksInN1YiI6IjY3MDdiNWE2MWQ5NmRjNmQ0NzZhMjY1MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GqI5U_9SDIvXC4G-bo9QBW-KbKcCh-8tSwLlrxpxFLY" } })
         setMovies(res.data.results) 
     }
 
@@ -31,7 +31,7 @@ const MoviesList = () => {
 
     return (  
         <>
-            <div className="comingSoon">
+            <div className="comingSoon" id='comingSoon'>
                 <h2>Trend this week</h2>
                 <div className="searchContainer">
                     <input
@@ -61,4 +61,4 @@ const MoviesList = () => {
     );
 }
  
-export default MoviesList;
+export default MoviesList

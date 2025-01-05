@@ -3,7 +3,7 @@ import '../Slider/Slider.css';
 const Slider = () => {
   return (
     <>
-      <div className="slider">
+      <div className="slider" id='slider'>
         <h2>Popular Movies</h2>
         <div className="sliderContainer">
           <div className="sliderTrack">
